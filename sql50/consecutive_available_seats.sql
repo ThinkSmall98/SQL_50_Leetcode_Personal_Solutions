@@ -1,4 +1,4 @@
--- self join & ABS
+-- Start with cartesian product (Cross join) & ABS to get ones next to each other
 SELECT 
     DISTINCT C1.seat_id
 FROM Cinema C1
